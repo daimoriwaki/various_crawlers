@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-Bgn  -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-End  -->
+<!--2018/08/23 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn  -->
+
+<head id="headAnswer">
+    <!-- 2018/11/07 (No.56 平成30年度更改カスタマイズ アナリティクス埋込作業) Ins-Bgn -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126378226-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126378226-1');
+    </script>
+    <!-- 2018/11/07 (No.56 平成30年度更改カスタマイズ アナリティクス埋込作業) Ins-End -->
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Del-Bgn -->
+    
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Del-End -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" /><title>
+	豊中市/こども園・認可保育所（園）入所の必要書類.../子育て・教育/保育所・幼稚園
+</title>
+    <!-- 2018/08/23 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End  -->
+    <!-- 2018/08/23 (No.20 レスポンシブ対応) Upd-End  -->
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /><link rel="stylesheet" type="text/css" title="standard" href="css/txt.css" />
+    <!--2018/08/23 (No.20 レスポンシブ対応) Upd-End  -->
+    <link rel="alternate stylesheet" type="text/css" title="black" href="css/txt_black.css" /><link rel="alternate stylesheet" type="text/css" title="blue" href="css/txt_blue.css" /><link rel="alternate stylesheet" type="text/css" title="yellow" href="css/txt_yellow.css" />
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Upd-Bgn -->
+    
+    <script type="text/javascript">
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Upd-End -->
+    /*-- 文字サイズの変更 start */ 
+function change_size(ratio) {
+    /* 2018/10/18 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn */
+    //if (40 < parseInt(def_size) && parseInt(ratio) < 0) {
+    //    def_size = parseInt(def_size) + parseInt(ratio);
+    //}
+    //if (0 < parseInt(ratio) && parseInt(def_size) < 250) {
+    //    def_size = parseInt(def_size) + parseInt(ratio);
+    //}
+    var iS = 40;
+    var iL = 200;
+    if (parseInt(iS) < parseInt(def_size) && parseInt(ratio) < 0) {
+        def_size = parseInt(def_size) + parseInt(ratio);
+    }
+    if (0 < parseInt(ratio) && parseInt(def_size) < parseInt(iL)) {
+        def_size = parseInt(def_size) + parseInt(ratio);
+    }
+    /* 2018/10/18 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End */
+	document.body.style.fontSize = def_size + '%';
+    /* 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-Bgn */
+    /*-- ヘッダー高さ調整用 --*/
+	var hh = 73 + (parseInt(def_size) - 130) * 0.5;
+    /* 2018/11/01 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn */
+    //var lw = 0.956 + 0.7286 * parseInt(def_size);
+	var lw = 9.4286 + 0.7012 * parseInt(def_size);
+    /* 2018/11/01 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End */
+	var ch = 21.445 + 0.8357 * parseInt(def_size);
+	var cw = 127.8 + 0.4651 * parseInt(def_size);
+	var rw = 127.22 + 0.4358 * parseInt(def_size);
+	var it = 9.3944 - 0.0538 * parseInt(def_size);
+	var il = 9.8778 - 0.1133 * parseInt(def_size);
+	var hb = -13.821 + 0.1429 * parseInt(def_size);
+
+	if (parseInt(def_size) > 130) {
+	    ///*-- PCヘッダー --*/
+	    document.querySelector("#header_img").style.height = hh + 'px';
+	    document.querySelector("#leftBoxColor").style.width = lw + 'px';
+	    document.querySelector("#leftBoxWord").style.width = lw + 'px';
+	    document.querySelector("#hbblack").style.margin = hb + 'px 3px 0px 3px';
+	    document.querySelector("#hbblue").style.margin = hb + 'px 3px 0px 3px';
+	    document.querySelector("#hbyell").style.margin = hb + 'px 3px 0px 3px';
+	    document.querySelector("#hbnormal").style.margin = hb + 'px 3px 0px 3px';
+	    document.querySelector("#hbsmall").style.margin = hb + 'px 3px 0px 3px';
+	    document.querySelector("#hblarge").style.margin = hb + 'px 3px 0px 3px';
+	    /*-- モバイル版 --*/
+	    document.querySelector("#nav-content").style.height = ch + 'px';
+	    document.querySelector("#nav-content").style.width = cw + 'px';
+	    document.querySelector("#mobileColor").style.width = lw + 'px';
+	    document.querySelector("#mobileWord").style.width = lw + 'px';
+	    document.querySelector("#mobileRbox").style.width = rw + 'px';	    
+	}
+	document.querySelector("#nav-open").style.margin = it + 'px ' + il + 'px';
+    /*-- ヘッダー高さ　終　--*/
+    /* 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-End */
+}
+/*-- 文字サイズの変更 end */ 
+
+/*-- CSSの切替え start */ 
+function setActiveStyleSheet(title) {
+	var i, a, main;
+	if ( title == '' || title == null ) {
+		title = 'standard';
+	}
+	for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+		if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
+			a.disabled = true;
+			if(a.getAttribute("title") == title) a.disabled = false;
+		}
+	}
+
+    createCookie("style", title, 365);　
+}
+
+function getActiveStyleSheet() {
+	var i, a;
+	for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+		if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") && !a.disabled) return a.getAttribute("title");
+	}
+	return null;
+}
+
+function getPreferredStyleSheet() {
+	var i, a;
+	for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+		if(a.getAttribute("rel").indexOf("style") != -1
+			&& a.getAttribute("rel").indexOf("alt") == -1
+			&& a.getAttribute("title")
+			) return a.getAttribute("title");
+	}
+	return null;
+}
+/*-- CSSの切替え end */ 
+
+/*-- Cookieの編集 start */ 
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+/*-- Cookieの編集 end */ 
+
+/*-- 文字列のバイト数算出 start */
+function getByte(strOrg)
+{
+  var byteNum;
+  var tempChar;
+  var i;
+
+  byteNum = 0;
+
+  for (i = 0; i < strOrg.length; i++) {
+    tempChar = escape(strOrg.charAt(i));
+	if (tempChar.length < 4) {
+      byteNum++;
+    }
+    else {
+      byteNum += 2;
+    }
+  }
+
+  return byteNum;
+}
+/*-- 文字列のバイト数算出 end */
+
+/*-- 数値チェック start */
+function chkNumeric(strOrg)
+{
+  var result;
+  result = strOrg.match(/[[0-9]*]*/); 
+  if (strOrg != result) {
+    return false;
+  }
+  return true;
+}
+/*-- 数値チェック（-はOK） end */
+
+/*-- 両端の空白を取る start */
+function Trim(strOrg) {
+  var strRet;
+  var strReturn;
+  strRet = LTrim(strOrg);
+  strReturn = RTrim(strRet);
+  return strReturn;
+}
+/*-- 両端の空白を取る end */
+
+/*-- 右端の空白を取る start */
+function RTrim(strOrg) {
+  var nLoop = 0;
+  var strReturn = strOrg;
+  while (nLoop < strOrg.length) {
+    if ((strReturn.substring(strReturn.length - 1, strReturn.length) == ' ') || (strReturn.substring(strReturn.length - 1, strReturn.length) == '　')) {
+      strReturn = strOrg.substring(0, strOrg.length - (nLoop + 1));
+    }
+    else
+    {
+      break;
+    }
+    nLoop++;
+  }
+  return strReturn;
+}
+/*-- 右端の空白を取る end */
+
+/*-- 左端の空白を取る start */
+function LTrim(strOrg) {
+  var nLoop = 0;
+  var strReturn = strOrg;
+  while (nLoop < strOrg.length) {
+    if ((strReturn.substring(0, 1) == ' ') || (strReturn.substring(0, 1) == '　')) {
+      strReturn = strOrg.substring(nLoop + 1, strOrg.length);
+    }
+    else
+    {
+      break;
+    }
+    nLoop++;
+  }
+  return strReturn;
+}
+/*-- 左端の空白を取る end */
+
+/*-- 起動時の設定 start */ 
+var cookie;
+var title;
+var currentYear;
+var currentMonth;
+var currentDay;
+var def_size;
+var ratio;
+
+window.onload = function(e) {
+	cookie   = readCookie("fontSize");
+	def_size = cookie ? cookie : 100;
+	if(def_size=='undefined') { def_size =100;}
+	change_size ( 0 );
+	cookie    = readCookie("style");
+	title = cookie ? cookie : 'standard';
+	setActiveStyleSheet(title);
+}
+
+window.onunload = function(e) {
+	title = getActiveStyleSheet();
+	createCookie("style", title, 365);
+	createCookie("fontSize", def_size, 365);
+}
+/*-- 起動時の設定 end */ 
+      </script>
+    <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Ins-Bgn -->
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Upd-Bgn -->
+    
+    <script type="text/javascript">
+    <!-- 2018/10/24 (No.21 アクセシビリティ対応) Upd-End -->
+    function btnLinkClick(url) {
+            var sRet = window.open(url, '', '');
+            return;
+        }
+    </script>
+    <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Ins-End -->
+    <!-- 2018/08/30 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-Bgn  -->
+    
+    <!-- 2018/08/30 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-End  -->
+<meta name="description" content="申し込みには以下の書類が必要です。
+・支給認定申請書
+・利用調整申込書兼児童台帳
+・保育を必要とする事由証明書　
+
+事由証明書は保護者それぞれに必要です。育児休業中の場合は本証明書への記載を願います。
+また他市からの転入予定の人..." /><meta name="keywords" content="よくある質問,Ｑ＆Ａ,ＦＡＱ,質問,Ｑ＆Ａ形式" /></head>
+<body>
+    <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-Bgn  -->
+    <!-- wrapper start -->
+    <div id="wrapper">
+    <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-End  -->
+        <form name="frmP200" method="post" action="./P200.aspx?FAQID=1202010" id="frmP200">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmP200'];
+if (!theForm) {
+    theForm = document.frmP200;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0180C678" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAeyZNCrKJfoE58ry+3lA2NDEJ+ZAWGqillahkyp0AoREIRcBeoljust7ema5xoEJuifrn4cqaN7BhYby/VV/Gx32hH1EP2tQB496cxVPy/T6d68CYvR0xg5KyvqzIFLSmKUf57xFQV+ksH9cldxOdlm9f4bqAm5htck5/3UloufK79v+t6+eQUJ+CY5kJ7HBtk=" />
+</div>
+            <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn  -->
+            
+                        
+            <div id="main">
+                <!-- ヘッダー start -->
+                <div id="header_img" class="header_img">
+                    <div id="sideArea">
+                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 C9、F38) Upd-Bgn -->
+                        
+                        <img class="leftBox" src="img/titleレベル4.gif" alt="" />
+                        <img class="townMetal" src="img/nt_icon_title02.png" alt="" />
+                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 C9、F38) Upd-End -->
+                        <!-- 豊中更改カスタマイズ一覧：開始 -->
+                        <div id="contentMovile" class="rightHeader">
+                            <div class="hm_wrap">
+                                <!-- 2018/09/28 (No.21 アクセシビリティ対応 H44、H65、H71、G96、G100) Upd-Bgn -->
+                                
+                                <fieldset id="nav-field">
+                                    <legend class="none">チェック時：表示、未チェック時：非表示</legend>
+                                    <input type="checkbox" id="nav-input" class="nav-unshown" title="画面右上表示の「≡」ボタンで画面変更一覧を表示する。"/>
+                                    <label for="nav-input" id="nav-open" title="画面右上表示の「≡」ボタン"><span></span></label>
+                                <!-- 2018/09/28 (No.21 アクセシビリティ対応 H44、H65、H71、G96、G100) Upd-End -->
+                                <div id="nav-content">
+                                    <!-- 一覧表示内容：はじまり… -->
+                                    <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-Bgn -->
+                                    
+                                    <div class="rightBox" id="mobileRbox">
+                                        <div class="leftBoxWord" id="mobileColor">
+                                    <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-End -->
+                                            <span class="header_text">背景色を変更</span>
+                                        </div>
+                                        <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-Bgn  -->
+                                                                                
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-Bgn -->
+                                        <br class="clebo"/>
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-End -->
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_black_m_ov.gif'" onfocus="this.src='img/change_black_m_ov.gif'" onmouseout="this.src='img/change_black_m.gif'" onblur="this.src='img/change_black_m.gif'"  src="img/change_black_m.gif" alt="背景色を黒に変更" onclick="javascript: setActiveStyleSheet('black'); return false;" onkeypress  ="javascript: setActiveStyleSheet('black'); return false;"/>
+                                        </div>
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_blue_m_ov.gif'" onfocus="this.src='img/change_blue_m_ov.gif'" onmouseout="this.src='img/change_blue_m.gif'" onblur="this.src='img/change_blue_m.gif'" src="img/change_blue_m.gif" alt="背景色を青に変更" onclick="javascript: setActiveStyleSheet('blue'); return false;" onkeypress  = "javascript: setActiveStyleSheet('blue'); return false;"/>
+                                        </div>
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_yellow_m_ov.gif'" onfocus="this.src='img/change_yellow_m_ov.gif'"  onmouseout="this.src='img/change_yellow_m.gif'" onblur="this.src='img/change_yellow_m.gif'" src="img/change_yellow_m.gif" alt="背景色を黄に変更" onclick="javascript: setActiveStyleSheet('yellow'); return false;" onkeypress  = "javascript: setActiveStyleSheet('yellow'); return false;"/>
+                                        </div>
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_normal_m_ov.gif'" onfocus="this.src='img/change_normal_m_ov.gif'" onmouseout="this.src='img/change_normal_m.gif'" onblur="this.src='img/change_normal_m.gif'" src="img/change_normal_m.gif" alt="背景色を通常に戻す" onclick="javascript: setActiveStyleSheet('standard'); return false;" onkeypress  = "javascript: setActiveStyleSheet('standard'); return false;"/>
+                                        </div>
+                                        <br class="clebo"/>
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-Bgn -->
+                                        
+                                        <div class="leftBoxWord" id="mobileWord">
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-End -->
+                                            <span class="header_text">文字サイズ</span>
+                                        </div>
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-Bgn -->
+                                        <br class="clebo"/>
+                                        <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Ins-End -->
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_small_m_ov.gif'" onfocus ="this.src='img/change_small_m_ov.gif'" onmouseout="this.src='img/change_small_m.gif'" onblur="this.src='img/change_small_m.gif'" src="img/change_small_m.gif" alt="文字を小さく" onclick="change_size('-10'); return false;" class="imgSzn" onkeypress  = "change_size('-10'); return false;"/>
+                                        </div>
+                                        <div class="leftBoxButton">
+                                            <input name="image" type="image" onmouseover="this.src='img/change_large_m_ov.gif'" onfocus="this.src='img/change_large_m_ov.gif'" onmouseout="this.src='img/change_large_m.gif'" onblur="this.src='img/change_large_m.gif'" src="img/change_large_m.gif" alt="文字を大きく" onclick="change_size('10'); return false;" class="imgSzn" onkeypress  = "change_size('10'); return false;"/>
+                                        </div>
+                                        <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-End  -->
+                                        <div class="leftBoxButton">
+                                        </div>
+                                        <div class="leftBoxButton">
+                                        </div>
+                                    </div>
+                                    <!-- 一覧表示内容：おしまい！ -->
+                                </div>
+                                <!-- 2018/09/28 (No.21 アクセシビリティ対応 H71) Ins-Bgn -->
+                                </fieldset>
+                                <!-- 2018/09/28 (No.21 アクセシビリティ対応 H71) Ins-End -->
+                            </div>
+                        </div>
+                        <!-- 豊中更改カスタマイズ一覧：終了 -->
+                    </div>
+                    <div id="contentArea" class="rightHeader">
+                        <div class="rightBox">
+                            <!-- 2018/08/23 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End  -->
+                            <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-Bgn -->
+                            
+                            <div class="leftBoxWord" id ="leftBoxColor">
+                            <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-End -->                            
+                                <span class="header_text">背景色を変更</span>
+                            </div>
+                            <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-Bgn  -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+
+                                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                            
+                            <div class="leftBoxButton" id="hbblack">
+                                <input name="image" type="image" onmouseover="this.src='img/change_black_ov.gif'" onfocus="this.src='img/change_black_ov.gif'" onmouseout="this.src='img/change_black.gif'" onblur="this.src='img/change_black.gif'"  src="img/change_black.gif" alt="背景色を黒に変更" onclick="javascript: setActiveStyleSheet('black'); return false;" onkeypress  ="javascript: setActiveStyleSheet('black'); return false;" />
+                            </div>
+                            <div class="leftBoxButton" id="hbblue">
+                                <input name="image" type="image" onmouseover="this.src='img/change_blue_ov.gif'" onfocus="this.src='img/change_blue_ov.gif'" onmouseout="this.src='img/change_blue.gif'" onblur="this.src='img/change_blue.gif'" src="img/change_blue.gif" alt="背景色を青に変更" onclick="javascript: setActiveStyleSheet('blue'); return false;" onkeypress  = "javascript: setActiveStyleSheet('blue'); return false;"/>
+                            </div>
+                            <div class="leftBoxButton" id="hbyell">
+                                <input name="image" type="image" onmouseover="this.src='img/change_yellow_ov.gif'" onfocus="this.src='img/change_yellow_ov.gif'"  onmouseout="this.src='img/change_yellow.gif'" onblur="this.src='img/change_yellow.gif'" src="img/change_yellow.gif" alt="背景色を黄に変更" onclick="javascript: setActiveStyleSheet('yellow'); return false;" onkeypress  = "javascript: setActiveStyleSheet('yellow'); return false;"/>
+                            </div>
+                            <div class="leftBoxButton" id="hbnormal">
+                                <input name="image" type="image" onmouseover="this.src='img/change_normal_ov.gif'" onfocus="this.src='img/change_normal_ov.gif'" onmouseout="this.src='img/change_normal.gif'" onblur="this.src='img/change_normal.gif'" src="img/change_normal.gif" alt="背景色を通常に戻す" onclick="javascript: setActiveStyleSheet('standard'); return false;" onkeypress  = "javascript: setActiveStyleSheet('standard'); return false;"/>
+                            </div>
+                            <br class="clebo"/>
+                            <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-Bgn -->
+                            
+                            <div class="leftBoxWord" id="leftBoxWord">
+                            <!-- 2018/09/28 (No.21 アクセシビリティ対応 G179) Upd-End -->
+                                <span class="header_text" id ="pcText">文字サイズ</span>
+                            </div>
+                            <div class="leftBoxButton" id="hbsmall">
+                                <input name="image" type="image" onmouseover="this.src='img/change_small_ov.gif'" onfocus ="this.src='img/change_small_ov.gif'" onmouseout="this.src='img/change_small.gif'" onblur="this.src='img/change_small.gif'" src="img/change_small.gif" alt="文字を小さく" onclick="change_size('-10'); return false;" class="imgSzn" onkeypress  = "change_size('-10'); return false;"/>
+                            </div>
+                            <div class="leftBoxButton" id ="hblarge">
+                                <input name="image" type="image" onmouseover="this.src='img/change_large_ov.gif'" onfocus="this.src='img/change_large_ov.gif'" onmouseout="this.src='img/change_large.gif'" onblur="this.src='img/change_large.gif'" src="img/change_large.gif" alt="文字を大きく" onclick="change_size('10'); return false;" class="imgSzn" onkeypress  = "change_size('10'); return false;"/>
+                            </div>
+                             <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-End  -->
+                            
+                            <div class="leftBoxButton" id="hbyomiage">
+                                <input type="image" name="ibYomiage" id="ibYomiage" onmouseover="this.src=&#39;img/btn_readspeaker_ov.jpg&#39;" onmouseout="this.src=&#39;img/btn_readspeaker.jpg&#39;" onFocus="this.src=&#39;img/btn_readspeaker_ov.jpg&#39;" onBlur="this.src=&#39;img/btn_readspeaker.jpg&#39;" src="img/btn_readspeaker.jpg" alt="音声読み上げ" style="border-width:0px;" />
+                            </div>
+                            
+                                                            
+                            
+                            
+                        <!-- 2018/08/31 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-Bgn  -->
+                        </div>
+                        <!-- 2018/08/31 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-End  -->
+                    </div>
+                </div>
+                <!-- ヘッダー end -->
+                <!-- ISI_LISTEN_START -->
+                <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn  -->
+                
+                
+                <div id="mainHeaderArea" class="topicPath menuTop">
+                    <div id="lnkIndent" class="NoneBase">
+                        <div>
+                            <a id="lnkTopURL" href="javascript:__doPostBack(&#39;lnkTopURL&#39;,&#39;&#39;)">トップページ</a>＞<a id="lnkP000" href="javascript:__doPostBack(&#39;lnkP000&#39;,&#39;&#39;)">よくある質問</a>＞<a id="lnkList" href="javascript:__doPostBack(&#39;lnkList&#39;,&#39;&#39;)">子育て・教育＞保育所・幼稚園</a>＞<span id="lblList">こども園・認可保育所（園）入所の必要書類...</span>
+                        </div>
+                    </div>
+                <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End  -->
+                </div>
+
+                <!-- エラーメッセージ表示 start -->
+                
+                <!-- エラーメッセージ表示 end -->
+
+
+                <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-Bgn  -->
+                
+                <div id="moreArea" class="NoneBase">
+                    <!-- ＦＡＱ質問 start -->
+                    <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-End  -->
+                    <h1>
+                        <span id="lblTitle" class="test">Q.こども園・認可保育所（園）入所の必要書類を教えてください</span></h1>
+                    <!-- 2018/08/24 (No.20 レスポンシブ対応) Del-Bgn  -->
+                    
+                    <!-- 2018/08/24 (No.20 レスポンシブ対応) Del-End  -->
+                    <!-- ＦＡＱ質問 end -->
+
+                    <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-Bgn  -->
+                    
+                    <!-- ＦＡＱ回答 start -->
+                    <div class="clearfix">
+                        <div class="grid">
+                            <!-- 2018/09/28 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-Bgn -->
+                            
+                            <div>
+                            <div class="two_up_auto_left"><span id="Label1">回答</span></div>
+                            <!-- 2018/09/28 (No.26 平成30年度更改カスタマイズ デザイン変更) Upd-End -->
+                            <div class="two_up_auto_right">
+                                <div class="index2">
+                                    <span id="lblBody">申し込みには以下の書類が必要です。<br/>・支給認定申請書<br/>・利用調整申込書兼児童台帳<br/>・保育を必要とする事由証明書　<br/><br/>事由証明書は保護者それぞれに必要です。育児休業中の場合は本証明書への記載を願います。<br/>また他市からの転入予定の人は、豊中市内に居住予定の建物の売買契約書、または賃貸契約書のコピーが必要です。<br/><br/>【問い合わせ先】<br/>こども未来部　子育て給付課　入所入園係<br/>電話：06-6858-2253</span>
+                                </div>
+                            </div>
+                            <!-- 2018/09/28 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-Bgn -->
+                            </div>
+                            <!-- 2018/09/28 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-End -->
+                        </div>
+                        <!-- ＦＡＱ回答 end -->
+                        <div class="rightBox">
+                    <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-End  -->
+
+                            <!-- 関連ＦＡＱ start -->
+                            <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-Bgn  -->
+                            
+                            <div class="clearfix">
+                                <div class="linkedfaq">
+                                    <div class="linked">関連ＦＡＱ</div>
+                                
+                                    <ul class="small">
+                            <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-End  -->
+                                        
+                                    </ul>
+                                </div>
+                            <!-- 関連ＦＡＱ end -->
+                            <!-- 関連リンク start -->
+                            <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-Bgn  -->
+                            
+                            <div class="linkedpage">
+                                <div class="linked">関連リンク</div>
+                                <ul class="small">
+                            <!-- 2018/08/24 (No.20 レスポンシブ対応) Upd-End  -->
+                                    
+                                            <li><a href="javascript: btnLinkClick('https://www.city.toyonaka.osaka.jp/kosodate/hoikusho/tetsuduki/index.html')" id="repRefURL_ctl00_lnkRefURL">教育・保育施設利用案内（入所手続き・保育料等）</a></li>
+                                        
+                                </ul>
+                            </div>
+                        <!-- 2018/08/24 (No.20 レスポンシブ対応) Ins-Bgn  -->
+                        </div>
+                        <!-- 2018/08/24 (No.20 レスポンシブ対応) Ins-End  -->
+                        <!-- 関連リンク end -->
+                        <br />
+                        <!-- 2015/02/04 (No.15 担当課表示の追加) Upd-Bgn -->
+                        <!-- 担当課 start -->
+                        <div class="clebo txtC ">
+                            <br />
+                            <!-- 2018/10/02 (No.21 アクセシビリティ対応 C6、H91) Upd-Bgn -->
+                            
+                            <span id="lblTantoTitle" class="Tanto" title="担当課の表題">＜担当課＞</span>
+                            <span id="lblTanto" class="Tanto" title="担当課の課名">こども未来部  子育て給付課 入所入園係　電話：06-6858-2253</span>
+                            <!-- 2018/10/02 (No.21 アクセシビリティ対応 C6、H91) Upd-End -->
+                        </div>
+                        <!-- 担当課 end -->
+                        <br />
+                        <br />
+                        <!-- 2015/02/04 (No.15 担当課表示の追加) Upd-End -->
+                        <!-- 戻る start -->
+                        <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-Bgn  -->
+                        
+                        <div class="txtR">
+                            <input type="image" name="ImageBack" id="ImageBack" calss="txtR" onMouseOver="this.src=&#39;img/btn_back_ov.gif&#39;" onMouseOut="this.src=&#39;img/btn_back.gif&#39;" onFocus="this.src=&#39;img/btn_back_ov.gif&#39;" onBlur="this.src=&#39;img/btn_back.gif&#39;" src="img/btn_back.gif" alt="画面右下の「戻る」ボタンで前の画面に戻る" style="border-width:0px;" />
+                        </div>
+                        <div class="txtC">
+                            
+                            
+                            <input type="image" name="lnkQuestion" id="lnkQuestion" onmouseover="this.src=&#39;img/btn_question_ov.png&#39;" onmouseout="this.src=&#39;img/btn_question.png&#39;" onFocus="this.src=&#39;img/btn_question_ov.png&#39;" onBlur="this.src=&#39;img/btn_question.png&#39;" src="img/btn_question.png" alt="ページ下部の「お問い合わせフォーム」ボタンでメールを送信するためのお問い合わせフォームを開く" onclick="window.open(&#39;https://toyofaq.city.toyonaka.osaka.jp/faq_p/P300.aspx?FAQID=1202010&#39;,&#39;show_P200&#39;,&#39;&#39;);" style="border-width:0px;" />
+                        
+                            <!-- 2018/09/11 (No.21 アクセシビリティ対応) Upd-End  -->
+                            <!-- 戻る end -->
+            <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-Bgn  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-End  -->
+
+                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-Bgn -->
+                <!--<a href="#" id="lnkQuestion1"><img alt="お問合せフォーム" src="img/btn_form.gif" onmouseover="this.src='img/btn_form_ov.gif'" onmouseout="this.src='img/btn_form.gif'" /></a> -->
+                <!-- 2018/09/11 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-Bgn  -->
+                
+                <!-- 2018/09/11 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-End  -->
+                <!-- 2013/05/22 (No.4 右クリックを押下時に表示されるメニューを「開く」のみ使用可能とする。) Upd-End -->
+                <!-- 2018/09/14 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-Bgn  -->
+                
+                
+                <!-- 2018/09/14 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-End  -->
+            </div>
+            <!-- ISI_LISTEN_STOP -->
+            <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-Bgn  -->
+                
+            <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-End  -->
+            <!-- フッター start -->
+            <!-- 2018/09/14 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-Bgn  -->
+            
+             <!-- 2018/09/14 (No.26 平成30年度更改カスタマイズ デザイン変更) Del-End  -->
+            <span id="lblFooter">Copyright © Toyonaka City, All rights reserved</span>
+            <!-- フッター end -->
+        </form>
+    <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-Bgn  -->
+    </div>
+    <!-- 2018/08/24 (No.26 平成30年度更改カスタマイズ デザイン変更) Ins-End  -->
+</body>
+</html>
